@@ -1,9 +1,9 @@
-version: '2'
+version: '3.3'
 
 services:
 
   mariadb:
-    image: mariadb:10.1.21
+    image: mariadb:10.2.11
     container_name: docker-mariadb
     restart: always
     environment:
